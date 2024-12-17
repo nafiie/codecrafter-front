@@ -81,7 +81,7 @@
           async registerUser(){
             this.loading = true;
             try {
-              const response = await axios.post('http://localhost:8000/api/users', {
+              const response = await axios.post('https://codecrafter-back.onrender.com/api/users', {
               name: this.name,
               email: this.email,
               password: this.password,

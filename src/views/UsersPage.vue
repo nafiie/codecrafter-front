@@ -74,7 +74,7 @@ export default {
             this.loading = true;
             try {
                 const token = localStorage.getItem('token')
-                const response = await axios.get('http://localhost:8000/api/users', {
+                const response = await axios.get('https://codecrafter-back.onrender.com/api/users', {
                     headers:{
                         Authorization: `Bearer ${token}`
                     }
@@ -93,7 +93,7 @@ export default {
             if (confirm('Are you sure you want to delete this user?')){
                 try{
                     const token = localStorage.getItem('token')
-                    await axios.delete(`http://localhost:8000/api/users/${id}`, {
+                    await axios.delete(`https://codecrafter-back.onrender.com/api/users/${id}`, {
                     headers:{
                         Authorization: `Bearer ${token}`
                     }
