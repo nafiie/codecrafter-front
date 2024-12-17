@@ -24,6 +24,20 @@
         </div>
     </nav>
 
+    
+     <div class=" flex justify-center p-10 ">
+        <div class="">
+        <h1 class="text-6xl font-extrabold ">Track Your Projects with Ease</h1>
+        <p class="mt-10 text-center font-bold text-3xl text-green-700 italic">Get Started with our easy-to-use <span class="text-red-400"> <br> project Management Tool </span></p>
+        </div>
+     </div>
+
+
+
+
+
+    
+
 </template>
 
 <script>
